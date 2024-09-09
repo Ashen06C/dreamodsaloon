@@ -3,21 +3,20 @@ import Image from "next/image";
 
 const Service = () => {
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="sm:py-10 py-6 bg-gray-50">
       <div className="container mx-auto px-6 md:px-12 lg:px-24 text-center">
         {/* Title */}
-        <h3 className="text-md text-orange-500 uppercase mb-2">Our Services</h3>
-        <h2 className="text-4xl font-semibold text-gray-900 mb-12">
-          The work we do
+        <h2 className="text-3xl mb-4 font-semibold text-gray-900">
+          Our Services
         </h2>
 
-        <div className="flex flex-col lg:flex-row items-center justify-between space-y-8 lg:space-y-0 lg:space-x-8">
+        <div className="flex flex-col lg:flex-row items-baseline justify-between space-y-8 lg:space-y-0 lg:space-x-8">
           {/* Left Column: Services */}
           <div className="lg:w-1/3 space-y-8">
-            <div className="flex items-start space-x-4">
-              <div className="w-12 h-12">
+            <div className="flex items-start">
+              <div className="w-24 h-24">
                 <Image
-                  src="/images/haircut-icon.jpg"
+                  src="/images/haircut.jpg"
                   width={48}
                   height={48}
                   alt="Haircut"
@@ -33,9 +32,9 @@ const Service = () => {
             </div>
 
             <div className="flex items-start space-x-4">
-              <div className="w-12 h-12">
+              <div className="w-24 h-24">
                 <Image
-                  src="/images/facial-icon.jpg"
+                  src="/images/hairstyles.png"
                   width={48}
                   height={48}
                   alt="Facials"
@@ -53,10 +52,10 @@ const Service = () => {
           </div>
 
           {/* Center Image */}
-          <div className="lg:w-1/3 relative">
-            <div className="rounded-lg overflow-hidden shadow-lg w-64 h-64 mx-auto">
+          {/* <div className="lg:w-1/3 relative">
+            <div className="rounded-xl overflow-hidden shadow-lg ">
               <Image
-                src="/images/barber.jpg" // Replace with your image path
+                src="/images/chairs.jpg" // Replace with your image path
                 width={256}
                 height={256}
                 layout="responsive"
@@ -64,14 +63,20 @@ const Service = () => {
                 objectFit="cover"
               />
             </div>
-          </div>
+          </div> */}
 
+          <div className="text-4xl  border-2 rounded-2xl p-3 hover:scale-105 hover:shadow-lg transition-transform duration-300">
+            <h1 className="pb-4 text-orange-300 uppercase">Dreamod</h1>
+            <p className="text-3xl text-gray-900 text-center">
+              Where Men Find Their Signature Look
+            </p>
+          </div>
           {/* Right Column: Services */}
           <div className="lg:w-1/3 space-y-8">
             <div className="flex items-start space-x-4">
-              <div className="w-12 h-12">
+              <div className="w-24 h-24">
                 <Image
-                  src="/images/shaving-icon.jpg"
+                  src="/images/haircut.jpg"
                   width={48}
                   height={48}
                   alt="Shaving"
@@ -81,22 +86,22 @@ const Service = () => {
                 <h4 className="text-lg font-bold text-gray-800">Shaving</h4>
                 <p className="text-gray-600">
                   A close shave can make all the difference, leaving you feeling
-                  refreshed and ready to tackle whatever the day brings.
+                  refreshed ready to tackle whatever the day brings.
                 </p>
               </div>
             </div>
 
             <div className="flex items-start space-x-4">
-              <div className="w-12 h-12">
+              <div className="w-24 h-24">
                 <Image
-                  src="/images/spa-icon.jpg"
+                  src="/images/hairstyles.png"
                   width={48}
                   height={48}
                   alt="Spa"
                 />
               </div>
               <div>
-                <h4 className="text-lg font-bold text-gray-800">Spa</h4>
+                <h4 className="text-lg font-bold text-gray-800">Hair Styles</h4>
                 <p className="text-gray-600">
                   Escape from the hustle and bustle of everyday life and unwind
                   with a day at the spa, where relaxation awaits.

@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="py-16 bg-white">
-      <div className="container mx-auto px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row items-center gap-20">
+    <section className="sm:py-16 py-6  bg-white">
+      <div className="container mx-auto px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row items-center gap-2">
         {/* Text Block */}
         <div className="lg:w-1/2 mb-8 lg:mb-0">
           <h2 className="text-3xl font-semibold mb-4 text-gray-900">
