@@ -23,7 +23,7 @@ const About = () => {
             diplomats, and ex-pats with premium styling and grooming services.
           </p>
           <a
-            href="#"
+            href=""
             className="inline-block bg-gray-900 text-white px-6 py-2 rounded hover:bg-gray-700 transition-colors"
           >
             Read More →
@@ -31,7 +31,7 @@ const About = () => {
         </div>
 
         {/* Image Block */}
-        <div className="lg:w-1/2 relative flex justify-center ">
+        <div className="lg:w-1/2 relative flex justify-center ml-10 ">
           {/* Large Image */}
           <div className="w-3/4 h-96 rounded-lg overflow-hidden shadow-lg hidden md:block">
             <Image
