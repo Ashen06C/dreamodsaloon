@@ -1,4 +1,3 @@
-// components/Services.js
 import Image from "next/image";
 
 const Service = () => {
@@ -50,23 +49,8 @@ const Service = () => {
               </div>
             </div>
           </div>
-
-          {/* Center Image */}
-          {/* <div className="lg:w-1/3 relative">
-            <div className="rounded-xl overflow-hidden shadow-lg ">
-              <Image
-                src="/images/chairs.jpg" // Replace with your image path
-                width={256}
-                height={256}
-                layout="responsive"
-                alt="Barber"
-                objectFit="cover"
-              />
-            </div>
-          </div> */}
-
           <div className="text-4xl  border-2 rounded-2xl p-3 hover:scale-105 hover:shadow-lg transition-transform duration-300">
-            <h1 className="pb-4 text-orange-300 uppercase">" Dreamod "</h1>
+            <h1 className="pb-4 text-orange-300 uppercase">Dreamod</h1>
             <p className="text-3xl text-gray-900 text-center">
               Where Men Find Their Signature Look
             </p>

@@ -1,4 +1,3 @@
-import Info from "./Info";
 
 const Hero = () => {
   return (
@@ -15,7 +14,7 @@ const Hero = () => {
           <h1 className="text-7xl font-serif">
             Let Your Hair <span className="text-orange-300">Mirror</span> Your
           </h1>
-          <h1 className="text-7xl font-serif pb-4 ">Heart's Desire</h1>
+          <h1 className="text-7xl font-serif pb-4 ">Heart&#39:s Desire</h1>
           <div></div>
           <button className="mt-6 border py-2 px-6 rounded-md 0 text-white  hover:scale-105 hover:shadow-lg transition-transform duration-300">
             Book Now
