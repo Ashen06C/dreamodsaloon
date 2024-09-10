@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Service = () => {
   return (
-    <section className="sm:py-10 py-6 bg-gray-50">
+    <section className="sm:py-10 py-6 bg-gray-50 ">
       <div className="container mx-auto px-6 md:px-12 lg:px-24 text-center">
         {/* Title */}
         <h2 className="text-3xl mb-4 font-semibold text-gray-900">
@@ -66,7 +66,7 @@ const Service = () => {
           </div> */}
 
           <div className="text-4xl  border-2 rounded-2xl p-3 hover:scale-105 hover:shadow-lg transition-transform duration-300">
-            <h1 className="pb-4 text-orange-300 uppercase">Dreamod</h1>
+            <h1 className="pb-4 text-orange-300 uppercase">" Dreamod "</h1>
             <p className="text-3xl text-gray-900 text-center">
               Where Men Find Their Signature Look
             </p>
