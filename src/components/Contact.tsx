@@ -15,7 +15,7 @@ const Contact = () => {
             <h2 className="text-3xl font-semibold mb-4 text-gray-900">
               Get in Touch
             </h2>
-            <p className="mb-6 font-semibold">
+            <p className="mb-6 font-semibold text-gray-900">
               Start Your Journey to Beautiful Hair Today. Contact Us for Expert
               Hair Care and Personalized Services.
             </p>
@@ -62,8 +62,10 @@ const Contact = () => {
 
           {/* Send A Message Section */}
           <div className="w-full md:w-1/2 px-4">
-            <h2 className="text-3xl font-semibold mb-4">Send a Message</h2>
-            <p className="mb-6 font-semibold">
+            <h2 className="text-3xl font-semibold mb-4 text-gray-900">
+              Send a Message
+            </h2>
+            <p className="mb-6 font-semibold text-gray-900">
               Reach Out to Us for Expert Hair Care and Personalized Services.
               Your Journey to Beautiful Hair Starts Here.
             </p>
