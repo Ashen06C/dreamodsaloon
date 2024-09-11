@@ -14,7 +14,7 @@ const Team = () => {
 
       <div className="flex flex-wrap justify-center mt-10 gap-5">
         {/* Card 1 */}
-        <div className="w-full md:w-1/3 p-4 max-w-xs">
+        <div className=" w-full md:w-1/3 p-4 max-w-xs">
           <div className="relative bg-gray-800 text-white rounded-lg overflow-hidden shadow-lg">
             <img
               src="/images/hero-2.jpg" // Example image path, replace with actual image

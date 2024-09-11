@@ -1,4 +1,3 @@
-
 const Hero = () => {
   return (
     <div>
@@ -11,12 +10,14 @@ const Hero = () => {
 
         {/* Content */}
         <div className="relative z-10 text-center">
-          <h1 className="text-7xl font-serif">
+          <h1 className="text-7xl font-serif animate-fadeInUp">
             Let Your Hair <span className="text-orange-300">Mirror</span> Your
           </h1>
-          <h1 className="text-7xl font-serif pb-4 ">Heart Desire</h1>
+          <h1 className="text-7xl font-serif pb-4 animate-fadeInUp">
+            Heart Desire
+          </h1>
           <div></div>
-          <button className="mt-6 border py-2 px-6 rounded-md 0 text-white  hover:scale-105 hover:shadow-lg transition-transform duration-300">
+          <button className="mt-6 border py-2 px-6 rounded-md text-white hover:scale-105 hover:shadow-lg transition-transform duration-300">
             Book Now
           </button>
         </div>

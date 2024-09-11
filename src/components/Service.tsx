@@ -13,7 +13,7 @@ const Service = () => {
           {/* Left Column: Services */}
           <div className="lg:w-1/3 space-y-8">
             <div className="flex items-start">
-              <div className="w-24 h-24">
+              <div className="w-24 h-24 hidden">
                 <Image
                   src="/images/haircut.jpg"
                   width={48}
@@ -21,7 +21,7 @@ const Service = () => {
                   alt="Haircut"
                 />
               </div>
-              <div>
+              <div className="text-left">
                 <h4 className="text-lg font-bold text-gray-800">Hair cuts</h4>
                 <p className="text-gray-600">
                   Step into the salon chair and let your worries disappear as
@@ -31,7 +31,7 @@ const Service = () => {
             </div>
 
             <div className="flex items-start space-x-4">
-              <div className="w-24 h-24">
+              <div className="w-24 h-24 hidden">
                 <Image
                   src="/images/hairstyles.png"
                   width={48}
@@ -39,9 +39,9 @@ const Service = () => {
                   alt="Facials"
                 />
               </div>
-              <div>
+              <div className="text-right">
                 <h4 className="text-lg font-bold text-gray-800">Facials</h4>
-                <p className="text-gray-600">
+                <p className="text-gray-600 ">
                   Pamper yourself with a luxurious facial and give your skin the
                   care it deserves, leaving you with a radiant, refreshed
                   complexion.
@@ -49,16 +49,15 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <div className="text-4xl  border-2 rounded-2xl p-3 hover:scale-105 hover:shadow-lg transition-transform duration-300">
-            <h1 className="pb-4 text-orange-300 uppercase">Dreamod</h1>
-            <p className="text-3xl text-gray-900 text-center">
+          <div className="text-4xl rounded-2xl hover:scale-105 hover:shadow-lg transition-transform duration-300">
+            <p className="text-3xl  text-orange-400 text-center animate-fadeInUp">
               Where Men Find Their Signature Look
             </p>
           </div>
           {/* Right Column: Services */}
           <div className="lg:w-1/3 space-y-8">
             <div className="flex items-start space-x-4">
-              <div className="w-24 h-24">
+              <div className="w-24 h-24 hidden">
                 <Image
                   src="/images/haircut.jpg"
                   width={48}
@@ -66,9 +65,9 @@ const Service = () => {
                   alt="Shaving"
                 />
               </div>
-              <div>
+              <div className="text-right">
                 <h4 className="text-lg font-bold text-gray-800">Shaving</h4>
-                <p className="text-gray-600">
+                <p className="text-gray-600 ">
                   A close shave can make all the difference, leaving you feeling
                   refreshed ready to tackle whatever the day brings.
                 </p>
@@ -76,7 +75,7 @@ const Service = () => {
             </div>
 
             <div className="flex items-start space-x-4">
-              <div className="w-24 h-24">
+              <div className="w-24 h-24 hidden">
                 <Image
                   src="/images/hairstyles.png"
                   width={48}
@@ -84,9 +83,9 @@ const Service = () => {
                   alt="Spa"
                 />
               </div>
-              <div>
+              <div className="text-left">
                 <h4 className="text-lg font-bold text-gray-800">Hair Styles</h4>
-                <p className="text-gray-600">
+                <p className="text-gray-600 ">
                   Escape from the hustle and bustle of everyday life and unwind
                   with a day at the spa, where relaxation awaits.
                 </p>

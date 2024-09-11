@@ -19,7 +19,7 @@ const Contact = () => {
               Start Your Journey to Beautiful Hair Today. Contact Us for Expert
               Hair Care and Personalized Services.
             </p>
-            <ul className="text-gray-900 font-semibold">
+            <ul className="text-gray-900 font-semibold ">
               {/* Location */}
               <li className="mb-4 flex items-center">
                 <FaMapMarkerAlt className="mr-2" />
