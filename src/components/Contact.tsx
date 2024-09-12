@@ -74,13 +74,13 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="Your name*"
-                  className="w-full mb-4 md:mb-0 border border-gray-300 p-2 rounded-md"
+                  className="w-full mb-4 md:mb-0 border border-gray-300 p-2 rounded-md text-black"
                   required
                 />
                 <input
                   type="tel"
                   placeholder="Your contact No.*"
-                  className="w-full border border-gray-300 p-2 rounded-md"
+                  className="w-full border border-gray-300 p-2 rounded-md text-black"
                   required
                 />
               </div>
@@ -88,13 +88,13 @@ const Contact = () => {
                 <input
                   type="email"
                   placeholder="Your email*"
-                  className="w-full mb-4 md:mb-0 border border-gray-300 p-2 rounded-md"
+                  className="w-full mb-4 md:mb-0 border border-gray-300 p-2 rounded-md text-black"
                   required
                 />
               </div>
               <textarea
                 placeholder="Your message*"
-                className="w-full border border-gray-300 p-2 rounded-md"
+                className="w-full border border-gray-300 p-2 rounded-md text-black"
                 required
               ></textarea>
               <button
